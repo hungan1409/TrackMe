@@ -1,0 +1,30 @@
+<resources>
+    <!-- Common -->
+    <string name="app_name">Track Me</string>
+    <string name="ok">OK</string>
+
+    <!-- Error message -->
+    <string name="unexpected_error">Network connection failed. Please try again</string>
+    <string name="http_unavailable_error">The server is under maintenance, please visit again later.</string>
+    <string name="http_forbidden_error">Access is not allowed</string>
+    <string name="no_internet_error">Please check internet connection and try again</string>
+    <string name="error">Error</string>
+    <string name="rx_mapper_error">An error occurred, please try again later</string>
+
+    <string name="maps_api_key">AIzaSyCKAjBct-1ms1km2a6Jn4qvSo9mCyPZyFg</string>
+
+    <!-- Request location permission -->
+    <string name="request_location_permission_explanation">This application is used for tracking your moving. So, we need to access the location permission to get your location. Please consider to accept it.</string>
+    <string name="request_background_permission_explanation">We also access your location when the application in the background for continuous tracking. So, we need to access the background location permission to do it.</string>
+
+    <string name="fine_location_permission_rationale">The fine location permission is needed for core functionality.</string>
+    <string name="fine_permission_denied_explanation">Fine location permission was denied, but is needed for core functionality.</string>
+
+    <string name="background_location_permission_rationale">The background location permission is needed for enhanced functionality.</string>
+    <string name="background_permission_denied_explanation">Background location permission was denied but needed for enhanced functionality.</string>
+
+    <!-- History -->
+    <string name="average_speed">%1$.2f km/h\nAvg. Speed</string>
+    <string name="current_speed">%1$.2f km/h\nSpeed</string>
+    <string name="distance">%1$.2f km\nDistance</string>
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_main"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.trackme.ui.main.MainFragment"
+        android:label="List History"
+        tools:layout="@layout/fragment_main">
+
+        <action
+            android:id="@+id/navigate_to_track_location"
+            app:destination="@id/trackLocationFragment"
+            app:enterAnim="@anim/anim_grow_fade_in_from_bottom"
+            app:exitAnim="@anim/anim_fade_out"
+            app:popEnterAnim="@anim/anim_fade_in"
+            app:popExitAnim="@anim/anim_shrink_fade_out_from_bottom" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/trackLocationFragment"
+        android:name="com.example.trackme.ui.track.TrackLocationFragment"
+        android:label="Track Location"
+        tools:layout="@layout/fragment_track_location" />
+
+</navigation>
